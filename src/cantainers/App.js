@@ -8,6 +8,10 @@ import Footer from '../components/Footer';
 import Home from './Home';
 import Temp from './Temp';
 
+import L001 from "../components/learn/L001";
+import L002 from "../components/learn/L002";
+import L003 from "../components/learn/L003";
+
 class App extends Component {
   render() {
     return (
@@ -15,7 +19,10 @@ class App extends Component {
         <Header />
         <div className="container">
             <Switch>
-                <Route strict exact path="/" component={Home}/>
+                <Route strict exact path="/" component={Home} />
+                    <Route path="/learn/001" component={L001}/>
+                    <Route path="/learn/002" component={L002}/>
+                    <Route path="/learn/003" component={L003}/>
                 <Route strict exact path="/temp" component={Temp} />
             </Switch>
         </div>
