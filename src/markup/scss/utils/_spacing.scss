@@ -1,0 +1,34 @@
+@for $i from 0 through 10 {
+  @each $prop, $abbrev in (margin: m, padding: p) {
+    $length: 5 * $i;
+    .#{$abbrev}t-#{$length},
+    .#{$abbrev}y-#{$length} {
+      #{$prop}-top: $length + px !important;
+    }
+    .#{$abbrev}b-#{$length},
+    .#{$abbrev}y-#{$length} {
+      #{$prop}-bottom: $length + px !important;
+    }
+  }
+}
+.my-auto {
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}
+@for $i from 0 through 15 {
+  @each $prop, $abbrev in (margin: m, padding: p) {
+    .#{$abbrev}l-#{$i},
+    .#{$abbrev}x-#{$i} {
+      #{$prop}-left: $i + px !important;
+    }
+    .#{$abbrev}r-#{$i},
+    .#{$abbrev}x-#{$i} {
+      #{$prop}-right: $i + px !important;
+    }
+  }
+}
+.mx-auto {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
