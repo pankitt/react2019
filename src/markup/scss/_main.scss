@@ -12,3 +12,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
   monospace;
 }
+
+.my-form {
+  width: 20rem;
+  label {
+    width: 100%;
+  }
+}

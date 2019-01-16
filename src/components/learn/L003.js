@@ -46,7 +46,6 @@ const comment = {
 
 class L003 extends Component {
     render() {
-
         return (
             <div>
                 <Comment
