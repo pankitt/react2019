@@ -69,7 +69,7 @@ function Chat(props) {
     );
 }
 
-class L012 extends Component {
+class className extends Component {
     render() {
         return (
             <div>
@@ -80,4 +80,4 @@ class L012 extends Component {
     }
 }
 
-export default L012;
+export default className;

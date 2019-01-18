@@ -54,7 +54,7 @@ class SpeedSetter extends React.Component {
     }
 }
 
-class L016 extends Component {
+class className extends Component {
     constructor(props){
         super(props);
         this.state = {speed: 0, unit: 'KPH'};
@@ -85,4 +85,4 @@ class L016 extends Component {
     }
 }
 
-export default L016;
+export default className;

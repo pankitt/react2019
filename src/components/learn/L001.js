@@ -25,7 +25,7 @@ function getGreeting(val) {
 }
 
 ///
-class L001 extends Component {
+class className extends Component {
     render() {
         const youName = 'Josh Perez';
         const youElement = <h4>Hello, {youName}</h4>;
@@ -43,4 +43,4 @@ class L001 extends Component {
     }
 }
 
-export default L001;
+export default className;

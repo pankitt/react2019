@@ -14,7 +14,7 @@ function Response(props) {
     return isSuccess ? <SuccessMessage/> : <ErrorMessage/>
 }
 
-class L007 extends Component {
+class className extends Component {
     render() {
         return (
             <div>
@@ -24,4 +24,4 @@ class L007 extends Component {
     }
 }
 
-export default L007;
+export default className;

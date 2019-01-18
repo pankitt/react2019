@@ -26,6 +26,11 @@ class Home extends Component {
                     <li><Link to="/learn/017">017 Lifting State Up SpeedRadar (2)</Link></li>
                     <li><Link to="/learn/018">018 Lifting State Up SpeedRadar (2)</Link></li>
                     <li><Link to="/learn/019">019 Composition vs Inheritance</Link></li>
+                    <li><Link to="/learn/020">020 Composition vs Inheritance</Link></li>
+                    <li><Link to="/learn/021">021 Composition vs Inheritance</Link></li>
+                    <li><Link to="/learn/022">022 Composition vs Inheritance</Link></li>
+                    <li><Link to="/learn/023">023 Composition vs Inheritance</Link></li>
+                    <li><Link to="/learn/024">024 Composition vs Inheritance</Link></li>
                 </ul>
                 {this.props.children}
             </section>

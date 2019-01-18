@@ -13,7 +13,7 @@ function UserList(props){
     return (<ul className="list-group">{items}</ul>)
 }
 
-class L011 extends Component {
+class className extends Component {
     render() {
         return (
             <div>
@@ -27,4 +27,4 @@ class L011 extends Component {
     }
 }
 
-export default L011;
+export default className;

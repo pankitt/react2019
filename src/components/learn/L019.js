@@ -18,7 +18,7 @@ function MessageContent(props) {
 }
 
 
-class L019 extends Component {
+class className extends Component {
     render() {
         return (
             <div>
@@ -28,4 +28,4 @@ class L019 extends Component {
     }
 }
 
-export default L019;
+export default className;

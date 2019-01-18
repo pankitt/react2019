@@ -18,7 +18,7 @@ const errors = [
     'Uncaught ReferenceError: calculate is not defined'
 ];
 
-class L009 extends Component {
+class className extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -41,4 +41,4 @@ class L009 extends Component {
     }
 }
 
-export default L009;
+export default className;

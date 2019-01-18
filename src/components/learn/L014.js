@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-class L014 extends Component {
+class className extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -95,4 +95,4 @@ class L014 extends Component {
     }
 }
 
-export default L014;
+export default className;

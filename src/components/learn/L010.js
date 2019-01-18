@@ -16,7 +16,7 @@ function DangerAlert(props) {
     );
 }
 
-class L010 extends Component {
+class className extends Component {
     constructor(props) {
         super(props);
         this.state = {isDangerAlertShowed: true}
@@ -42,4 +42,4 @@ class L010 extends Component {
     }
 }
 
-export default L010;
+export default className;

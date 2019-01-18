@@ -8,7 +8,7 @@ function SpeedDetector(props) {
 }
 
 
-class L015 extends Component{
+class className extends Component{
     constructor(props) {
         super(props);
         this.state = {speed: ''};
@@ -32,4 +32,4 @@ class L015 extends Component{
     }
 }
 
-export default L015;
+export default className;

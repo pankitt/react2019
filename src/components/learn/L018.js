@@ -86,7 +86,7 @@ class Calculator extends Component {
 }
 
 
-class L017 extends Component {
+class className extends Component {
     render() {
         return (
             <div>
@@ -96,4 +96,4 @@ class L017 extends Component {
     }
 }
 
-export default L017;
+export default className;

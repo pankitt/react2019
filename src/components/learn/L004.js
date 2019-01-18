@@ -44,7 +44,7 @@ function Application() {
     );
 }
 
-class L004 extends Component {
+class className extends Component {
     render() {
         return (
             <Application/>
@@ -52,4 +52,4 @@ class L004 extends Component {
     }
 }
 
-export default L004;
+export default className;

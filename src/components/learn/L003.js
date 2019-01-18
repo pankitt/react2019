@@ -44,7 +44,7 @@ const comment = {
     }
 };
 
-class L003 extends Component {
+class className extends Component {
     render() {
         return (
             <div>
@@ -57,4 +57,4 @@ class L003 extends Component {
     }
 }
 
-export default L003;
+export default className;

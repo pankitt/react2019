@@ -7,7 +7,7 @@ function BoilingVerdict(props) {
     return <p>The water would not boil.</p>;
 }
 
-class L017 extends Component {
+class className extends Component {
     constructor(props) {
         super(props);
         this.state = {temperature: ''};
@@ -34,4 +34,4 @@ class L017 extends Component {
     }
 }
 
-export default L017;
+export default className;
