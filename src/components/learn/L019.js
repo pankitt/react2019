@@ -18,7 +18,7 @@ function MessageContent(props) {
 }
 
 
-class className extends Component {
+class NewClass extends Component {
     render() {
         return (
             <div>
@@ -28,4 +28,4 @@ class className extends Component {
     }
 }
 
-export default className;
+export default NewClass;

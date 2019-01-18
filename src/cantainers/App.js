@@ -32,6 +32,7 @@ import L021 from "../components/learn/L021";
 import L022 from "../components/learn/L022";
 import L023 from "../components/learn/L023";
 import L024 from "../components/learn/L024";
+import L025 from "../components/learn/L025";
 
 class App extends Component {
   render() {
@@ -65,6 +66,7 @@ class App extends Component {
                     <Route strict path="/learn/022" component={L022}/>
                     <Route strict path="/learn/023" component={L023}/>
                     <Route strict path="/learn/024" component={L024}/>
+                    <Route strict path="/learn/025" component={L025}/>
                 <Route strict exact path="/temp" component={Temp} />
             </Switch>
         </div>

@@ -22,7 +22,7 @@ function SnuffOutButton(props) {
     return (<button className="btn btn-warning" onClick={props.onClick}>Потушить</button>);
 }
 
-class className extends Component {
+class NewClass extends Component {
     constructor(props) {
         super(props);
         this.state = {isBurning: false};
@@ -50,4 +50,4 @@ class className extends Component {
     }
 }
 
-export default className;
+export default NewClass;

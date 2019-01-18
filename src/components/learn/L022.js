@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 function Dialog(props) {
     return (
-        <div className="alert alert-alert alert-">
+        <div className="alert alert-alert alert-dark">
             <h5 className="Dialog-title">
                 {props.title}
             </h5>
@@ -14,7 +14,7 @@ function Dialog(props) {
 }
 
 
-class className extends Component {
+class NewClass extends Component {
     render() {
         return (
             <Dialog
@@ -24,4 +24,4 @@ class className extends Component {
     }
 }
 
-export default className;
+export default NewClass;

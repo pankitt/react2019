@@ -8,7 +8,7 @@ function SpeedDetector(props) {
 }
 
 
-class className extends Component{
+class NewClass extends Component{
     constructor(props) {
         super(props);
         this.state = {speed: ''};
@@ -32,4 +32,4 @@ class className extends Component{
     }
 }
 
-export default className;
+export default NewClass;

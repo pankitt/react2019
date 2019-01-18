@@ -6,7 +6,7 @@ function Welcome(props) {
 const element1 = <Welcome firstName="Sara" lastName="Ma" />;
 const element2 = <Welcome firstName="Lara" lastName="La" />;
 
-class className extends Component {
+class NewClass extends Component {
     render() {
         const { firstName = 'Ihor', lastName = 'I' } = this.props;
 
@@ -22,4 +22,4 @@ class className extends Component {
     }
 }
 
-export default className;
+export default NewClass;

@@ -21,7 +21,7 @@ function Alert(props) {
 }
 
 
-class className extends Component {
+class NewClass extends Component {
     render() {
         return (
             <Alert color="dark"
@@ -36,4 +36,4 @@ class className extends Component {
     }
 }
 
-export default className;
+export default NewClass;

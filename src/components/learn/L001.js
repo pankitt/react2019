@@ -25,7 +25,7 @@ function getGreeting(val) {
 }
 
 ///
-class className extends Component {
+class NewClass extends Component {
     render() {
         const youName = 'Josh Perez';
         const youElement = <h4>Hello, {youName}</h4>;
@@ -43,4 +43,4 @@ class className extends Component {
     }
 }
 
-export default className;
+export default NewClass;
