@@ -6,8 +6,9 @@ class Header extends Component {
         return (
             <header className="container">
                 <div className="btn-group py-3">
-                    <Link to="/" className="btn btn-secondary">home</Link>
-                    <Link to="/temp" className="btn btn-secondary">temp</Link>
+                    <Link to="/" className="btn btn-secondary">Home</Link>
+                    <Link to="/learn1" className="btn btn-secondary">Page 1</Link>
+                    <Link to="/learn2" className="btn btn-secondary">Page 2</Link>
                 </div>
             </header>
         )
