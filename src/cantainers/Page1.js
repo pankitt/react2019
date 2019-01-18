@@ -27,6 +27,7 @@ import L022 from "../components/learn/L022";
 import L023 from "../components/learn/L023";
 import L024 from "../components/learn/L024";
 import L025 from "../components/learn/L025";
+import L026 from "../components/learn/L026";
 
 class Page1 extends Component {
     render() {
@@ -59,6 +60,7 @@ class Page1 extends Component {
                     <li><NavLink to="/learn1/023" activeClassName="active">023 Composition vs Inheritance</NavLink></li>
                     <li><NavLink to="/learn1/024" activeClassName="active">024 Composition vs Inheritance</NavLink></li>
                     <li><NavLink to="/learn1/025" activeClassName="active">025 Thinking In React</NavLink></li>
+                    <li><NavLink to="/learn1/026" activeClassName="active">026 Thinking In React</NavLink></li>
                 </ul>
                 <hr/>
                 <Switch>
@@ -87,6 +89,7 @@ class Page1 extends Component {
                     <Route strict path="/learn1/023" component={L023}/>
                     <Route strict path="/learn1/024" component={L024}/>
                     <Route strict path="/learn1/025" component={L025}/>
+                    <Route strict path="/learn1/026" component={L026}/>
                 </Switch>
             </section>
         )
