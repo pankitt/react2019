@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Link} from "react-router-dom";
+import { NavLink} from "react-router-dom";
 import { Route, Switch } from 'react-router';
 
 import L001 from "../components/learn/L001";
@@ -34,31 +34,31 @@ class Page1 extends Component {
             <section>
                 <h3>Page 1:</h3>
                 <ul>
-                    <li><Link to="/learn1/001">001 Rendering Elements</Link></li>
-                    <li><Link to="/learn1/002">002 Components & Props</Link></li>
-                    <li><Link to="/learn1/003">003 Components & Props</Link></li>
-                    <li><Link to="/learn1/004">004 Timer & Lifecycle</Link></li>
-                    <li><Link to="/learn1/005">005 Class</Link></li>
-                    <li><Link to="/learn1/006">006 Events</Link></li>
-                    <li><Link to="/learn1/007">007 Conditional Rendering</Link></li>
-                    <li><Link to="/learn1/008">008 Conditional Rendering</Link></li>
-                    <li><Link to="/learn1/009">009 Conditional Rendering</Link></li>
-                    <li><Link to="/learn1/010">010 Conditional Rendering</Link></li>
-                    <li><Link to="/learn1/011">011 Lists and Keys</Link></li>
-                    <li><Link to="/learn1/012">012 Lists and Keys</Link></li>
-                    <li><Link to="/learn1/013">013 Forms</Link></li>
-                    <li><Link to="/learn1/014">014 Forms</Link></li>
-                    <li><Link to="/learn1/015">015 Lifting State Up SpeedRadar (1)</Link></li>
-                    <li><Link to="/learn1/016">016 Lifting State Up SpeedRadar (1)</Link></li>
-                    <li><Link to="/learn1/017">017 Lifting State Up SpeedRadar (2)</Link></li>
-                    <li><Link to="/learn1/018">018 Lifting State Up SpeedRadar (2)</Link></li>
-                    <li><Link to="/learn1/019">019 Composition vs Inheritance</Link></li>
-                    <li><Link to="/learn1/020">020 Composition vs Inheritance</Link></li>
-                    <li><Link to="/learn1/021">021 Composition vs Inheritance</Link></li>
-                    <li><Link to="/learn1/022">022 Composition vs Inheritance</Link></li>
-                    <li><Link to="/learn1/023">023 Composition vs Inheritance</Link></li>
-                    <li><Link to="/learn1/024">024 Composition vs Inheritance</Link></li>
-                    <li><Link to="/learn1/025">025 Thinking In React</Link></li>
+                    <li><NavLink to="/learn1/001" activeClassName="active">001 Rendering Elements</NavLink></li>
+                    <li><NavLink to="/learn1/002" activeClassName="active">002 Components & Props</NavLink></li>
+                    <li><NavLink to="/learn1/003" activeClassName="active">003 Components & Props</NavLink></li>
+                    <li><NavLink to="/learn1/004" activeClassName="active">004 Timer & Lifecycle</NavLink></li>
+                    <li><NavLink to="/learn1/005" activeClassName="active">005 Class</NavLink></li>
+                    <li><NavLink to="/learn1/006" activeClassName="active">006 Events</NavLink></li>
+                    <li><NavLink to="/learn1/007" activeClassName="active">007 Conditional Rendering</NavLink></li>
+                    <li><NavLink to="/learn1/008" activeClassName="active">008 Conditional Rendering</NavLink></li>
+                    <li><NavLink to="/learn1/009" activeClassName="active">009 Conditional Rendering</NavLink></li>
+                    <li><NavLink to="/learn1/010" activeClassName="active">010 Conditional Rendering</NavLink></li>
+                    <li><NavLink to="/learn1/011" activeClassName="active">011 Lists and Keys</NavLink></li>
+                    <li><NavLink to="/learn1/012" activeClassName="active">012 Lists and Keys</NavLink></li>
+                    <li><NavLink to="/learn1/013" activeClassName="active">013 Forms</NavLink></li>
+                    <li><NavLink to="/learn1/014" activeClassName="active">014 Forms</NavLink></li>
+                    <li><NavLink to="/learn1/015" activeClassName="active">015 Lifting State Up SpeedRadar (1)</NavLink></li>
+                    <li><NavLink to="/learn1/016" activeClassName="active">016 Lifting State Up SpeedRadar (1)</NavLink></li>
+                    <li><NavLink to="/learn1/017" activeClassName="active">017 Lifting State Up SpeedRadar (2)</NavLink></li>
+                    <li><NavLink to="/learn1/018" activeClassName="active">018 Lifting State Up SpeedRadar (2)</NavLink></li>
+                    <li><NavLink to="/learn1/019" activeClassName="active">019 Composition vs Inheritance</NavLink></li>
+                    <li><NavLink to="/learn1/020" activeClassName="active">020 Composition vs Inheritance</NavLink></li>
+                    <li><NavLink to="/learn1/021" activeClassName="active">021 Composition vs Inheritance</NavLink></li>
+                    <li><NavLink to="/learn1/022" activeClassName="active">022 Composition vs Inheritance</NavLink></li>
+                    <li><NavLink to="/learn1/023" activeClassName="active">023 Composition vs Inheritance</NavLink></li>
+                    <li><NavLink to="/learn1/024" activeClassName="active">024 Composition vs Inheritance</NavLink></li>
+                    <li><NavLink to="/learn1/025" activeClassName="active">025 Thinking In React</NavLink></li>
                 </ul>
                 <hr/>
                 <Switch>

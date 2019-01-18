@@ -13,6 +13,12 @@ code {
   monospace;
 }
 
+a {
+  &.active {
+    font-weight: bold;
+  }
+}
+
 .my-form {
   width: 20rem;
   label {
