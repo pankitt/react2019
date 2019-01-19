@@ -38,7 +38,7 @@ class ProductTable extends Component {
         let lastCategory = null;
 
         products.forEach((product) => {
-            if (product.name.toLowerCase().indexOf(filterText.toLowerCase()) === -1) {
+            if (product.name.indexOf(filterText) === -1) {
                 return;
             }
             if (inStockOnly && !product.stocked) {
