@@ -25,3 +25,17 @@ a {
     width: 100%;
   }
 }
+.open-menu {
+  display: inline-block;
+  position: relative;
+  margin-right: 10px;
+  ul {
+    position: absolute;
+    background: #fff;
+    border: 2px #ccc solid;
+    width: 100%;
+    li {
+      padding: 2px;
+    }
+  }
+}

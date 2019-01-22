@@ -4,6 +4,7 @@ class Footer extends Component {
     render() {
         return (
             <footer className="container py-3">
+                <hr/>
                 <small>footer</small>
             </footer>
         )
