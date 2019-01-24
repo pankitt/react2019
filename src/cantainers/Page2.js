@@ -13,6 +13,10 @@ import L008 from "../components/examples/01_сontext";
 import L009 from "../components/examples/02_context";
 import L010 from "../components/learn2/L010";
 import L011 from "../components/learn2/L011";
+import L012 from "../components/learn2/L012";
+import L013 from "../components/learn2/L013";
+import L014 from "../components/learn2/L014";
+import L015 from "../components/learn2/L015";
 
 class Page2 extends Component {
     render() {
@@ -22,7 +26,7 @@ class Page2 extends Component {
                 <ul>
                     <li><NavLink to="/learn2/001" activeClassName="active">001 Accessibility</NavLink></li>
                     <li><NavLink to="/learn2/002" activeClassName="active">002 Accessibility</NavLink></li>
-                    <li><NavLink to="/learn2/003" activeClassName="active">002 Accessibility</NavLink></li>
+                    <li><NavLink to="/learn2/003" activeClassName="active">003 Accessibility</NavLink></li>
                     <li><NavLink to="/learn2/004" activeClassName="active">004 Accessibility (for mouse)</NavLink></li>
                     <li><NavLink to="/learn2/005" activeClassName="active">005 Accessibility (for key)</NavLink></li>
                     <li><NavLink to="/learn2/006" activeClassName="active">006 Context (without)</NavLink></li>
@@ -30,7 +34,11 @@ class Page2 extends Component {
                     <li><NavLink to="/learn2/008" activeClassName="active">008 Context Examples (Dynamic Context)</NavLink></li>
                     <li><NavLink to="/learn2/009" activeClassName="active">009 Context Examples (Nested Component)</NavLink></li>
                     <li><NavLink to="/learn2/010" activeClassName="active">010 Context Examples (Multiple Contexts)</NavLink></li>
-                    <li><NavLink to="/learn2/011" activeClassName="active">011 Error Boundaries</NavLink></li>
+                    <li><NavLink to="/learn2/011" activeClassName="active">011 Error Boundaries (--Error--)</NavLink></li>
+                    <li><NavLink to="/learn2/012" activeClassName="active">012 Forwarding Refs</NavLink></li>
+                    <li><NavLink to="/learn2/013" activeClassName="active">013 Forwarding Refs (--Error--)</NavLink></li>
+                    <li><NavLink to="/learn2/014" activeClassName="active">014 Fragments (001, 002)</NavLink></li>
+                    <li><NavLink to="/learn2/015" activeClassName="active">015 DOM Examples</NavLink></li>
                 </ul>
                 <hr/>
                 <Switch>
@@ -45,6 +53,10 @@ class Page2 extends Component {
                     <Route strict path="/learn2/009" component={L009}/>
                     <Route strict path="/learn2/010" component={L010}/>
                     <Route strict path="/learn2/011" component={L011}/>
+                    <Route strict path="/learn2/012" component={L012}/>
+                    <Route strict path="/learn2/013" component={L013}/>
+                    <Route strict path="/learn2/014" component={L014}/>
+                    <Route strict path="/learn2/015" component={L015}/>
                 </Switch>
             </section>
         )
