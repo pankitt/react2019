@@ -21,6 +21,12 @@ import L016 from "../components/learn2/L016";
 import L017 from "../components/learn2/L017";
 import L018 from "../components/learn2/L018";
 import L019 from "../components/learn2/L019";
+import L020 from "../components/learn2/L020";
+import L021 from "../components/learn2/L021";
+import L022 from "../components/learn2/L022";
+import L023 from "../components/learn2/L023";
+import L024 from "../components/learn2/L024";
+import L025 from "../components/learn2/L025";
 
 class Page2 extends Component {
     render() {
@@ -47,6 +53,12 @@ class Page2 extends Component {
                     <li><NavLink to="/learn2/017" activeClassName="active">017 Optimizing Performance (shouldComponentUpdate())</NavLink></li>
                     <li><NavLink to="/learn2/018" activeClassName="active">018 Optimizing Performance (PureComponent)</NavLink></li>
                     <li><NavLink to="/learn2/019" activeClassName="active">019 Optimizing Performance Examples (PureComponent)</NavLink></li>
+                    <li><NavLink to="/learn2/020" activeClassName="active">020 Portals</NavLink></li>
+                    <li><NavLink to="/learn2/021" activeClassName="active">021 Reconciliation (keys issues)</NavLink></li>
+                    <li><NavLink to="/learn2/022" activeClassName="active">022 Reconciliation (keys fix)</NavLink></li>
+                    <li><NavLink to="/learn2/023" activeClassName="active">023 Refs and the DOM (createRef)</NavLink></li>
+                    <li><NavLink to="/learn2/024" activeClassName="active">024 Refs and the DOM (=>)</NavLink></li>
+                    <li><NavLink to="/learn2/025" activeClassName="active">025 Render Props</NavLink></li>
                 </ul>
                 <hr/>
                 <Switch>
@@ -69,6 +81,12 @@ class Page2 extends Component {
                     <Route strict path="/learn2/017" component={L017}/>
                     <Route strict path="/learn2/018" component={L018}/>
                     <Route strict path="/learn2/019" component={L019}/>
+                    <Route strict path="/learn2/020" component={L020}/>
+                    <Route strict path="/learn2/021" component={L021}/>
+                    <Route strict path="/learn2/022" component={L022}/>
+                    <Route strict path="/learn2/023" component={L023}/>
+                    <Route strict path="/learn2/024" component={L024}/>
+                    <Route strict path="/learn2/025" component={L025}/>
                 </Switch>
             </section>
         )
