@@ -17,6 +17,10 @@ import L012 from "../components/learn2/L012";
 import L013 from "../components/learn2/L013";
 import L014 from "../components/learn2/L014";
 import L015 from "../components/learn2/L015";
+import L016 from "../components/learn2/L016";
+import L017 from "../components/learn2/L017";
+import L018 from "../components/learn2/L018";
+import L019 from "../components/learn2/L019";
 
 class Page2 extends Component {
     render() {
@@ -39,6 +43,10 @@ class Page2 extends Component {
                     <li><NavLink to="/learn2/013" activeClassName="active">013 Forwarding Refs (--Error--)</NavLink></li>
                     <li><NavLink to="/learn2/014" activeClassName="active">014 Fragments (001, 002)</NavLink></li>
                     <li><NavLink to="/learn2/015" activeClassName="active">015 DOM Examples</NavLink></li>
+                    <li><NavLink to="/learn2/016" activeClassName="active">016 JSX In Depth</NavLink></li>
+                    <li><NavLink to="/learn2/017" activeClassName="active">017 Optimizing Performance (shouldComponentUpdate())</NavLink></li>
+                    <li><NavLink to="/learn2/018" activeClassName="active">018 Optimizing Performance (PureComponent)</NavLink></li>
+                    <li><NavLink to="/learn2/019" activeClassName="active">019 Optimizing Performance Examples (PureComponent)</NavLink></li>
                 </ul>
                 <hr/>
                 <Switch>
@@ -57,6 +65,10 @@ class Page2 extends Component {
                     <Route strict path="/learn2/013" component={L013}/>
                     <Route strict path="/learn2/014" component={L014}/>
                     <Route strict path="/learn2/015" component={L015}/>
+                    <Route strict path="/learn2/016" component={L016}/>
+                    <Route strict path="/learn2/017" component={L017}/>
+                    <Route strict path="/learn2/018" component={L018}/>
+                    <Route strict path="/learn2/019" component={L019}/>
                 </Switch>
             </section>
         )
