@@ -7,7 +7,7 @@ class MyCounter extends Component {
     }
 
     shouldComponentUpdate(nextProps, nextState) {
-        if (this.props.style !== nextProps.color) return true;
+        if (this.props.color !== nextProps.color) return true;
         if (this.state.value !== nextState.value) return true;
         return false;
     }

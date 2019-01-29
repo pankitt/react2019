@@ -1,6 +1,6 @@
 import React, { Component, forwardRef } from "react";
 
-function logProps(Component) {
+function logProps(WrappedComponent) {
     class LogProps extends Component {
         componentDidUpdate(prevProps) {
             console.log('old props:', prevProps);
@@ -11,7 +11,7 @@ function logProps(Component) {
             const {forwardedRef, ...rest} = this.props;
 
             // Assign the custom prop "forwardedRef" as a ref
-            return <Component ref={forwardedRef} {...rest} />;
+            return <WrappedComponent ref={forwardedRef} {...rest} />;
         }
     }
 
