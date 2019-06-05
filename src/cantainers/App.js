@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import '../markup/scss/common.scss';
 
-import { Route, Switch } from 'react-router';
+import { Route, Switch, BrowserRouter as Router, } from 'react-router-dom';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Home from './Home';
@@ -17,9 +17,9 @@ class App extends Component {
         <Header />
         <div className="container">
             <Switch>
-                <Route strict exact path="/" component={Home} />
-                <Route strict path="/learn1" component={Page1} />
-                <Route strict path="/learn2" component={Page2} />
+                <Route exact path="/" component={Home} />
+                <Route path="/learn1" component={Page1} />
+                <Route path="/learn2" component={Page2} />
             </Switch>
         </div>
         <Footer />
